@@ -1,1 +1,65 @@
-
+body{
+    background-color:gray;
+    margin:0px;
+    color:white;
+}
+#container{
+    margin:15px auto 15px auto;
+    width:800px;
+}
+#header{
+    border:3px solid black;
+    width:764px;
+    height:100px;
+    background-color:green;
+    margin-bottom:10px;
+}
+#header:hover{
+    transition:2s;
+    border-radius:15px;
+}
+#jeden{
+    float:left;
+    width:185px;
+    height:200px;
+    background-color:red;
+    margin-right:10px;
+}
+#dwa{
+    float:left;
+    width:185px;
+    height:200px;
+    background-color:red;
+    margin-right:10px;
+}
+#trzy{
+    float:left;
+    width:185px;
+    height:200px;
+    background-color:red;
+    margin-right:10px;
+}
+#cztery{
+    width:185px;
+    height:200px;
+    background-color:red;
+}
+#jeden:hover{
+    transition:2s;
+    width:185px;
+    height:400px;
+    background-color:red;
+}
+#dol{
+    border:3px solid black;
+    width:764px;
+    height:100px;
+    background-color:green;
+    margin-top:10px;
+}
+#test{
+    border:3px solid black;
+    width:764px;
+    height:510px;
+    background-color:pink;
+}
