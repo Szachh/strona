@@ -9,10 +9,15 @@ body{
 }
 #header{
     border:3px solid black;
-    width:764px;
+    padding:5px;
+    width:754px;
     height:100px;
     background-color:green;
     margin-bottom:10px;
+}
+#header:hover{
+    transition:2s;
+    border-radius:10px;
 }
 #header:hover{
     transition:2s;
@@ -27,6 +32,14 @@ body{
     background-color:red;
     margin-right:10px;
 }
+#jeden:hover{
+    transition:2s;
+    border-radius:10px;
+    width:169px;
+    height:400px;
+    background-color:red;
+    border-bottom:none;
+}
 #dwa{
     float:left;
     border:3px solid black;
@@ -37,6 +50,9 @@ body{
     margin-right:10px;
     margin-bottom:10px;
 }
+#dwa:hover{
+    transition:2s;
+    border-radius:10px;}
 #trzy{
     float:left;
     border:3px solid black;
@@ -46,6 +62,9 @@ body{
     background-color:red;
     margin-right:10px;
 }
+#trzy:hover{
+    transition:2s;
+    border-radius:10px;}
 #cztery{
     float:left;
     border:3px solid black;
@@ -54,19 +73,20 @@ body{
     height:200px;
     background-color:red;
 }
-#jeden:hover{
+#cztery:hover{
     transition:2s;
-    width:169px;
-    height:400px;
-    background-color:red;
-    border-bottom:none;
-}
+    border-radius:10px;}
 #dol{
     clear:left;
     border:3px solid black;
-    width:764px;
+    padding:5px;
+    width:754px;
     height:100px;
     background-color:green;
+}
+#dol:hover{
+    transition:2s;
+    border-radius:10px;
 }
 #test{
     border:3px solid black;
