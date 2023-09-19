@@ -20,42 +20,53 @@ body{
 }
 #jeden{
     float:left;
-    width:185px;
+    border:3px solid black;
+    padding:5px;
+    width:169px;
     height:200px;
     background-color:red;
     margin-right:10px;
 }
 #dwa{
     float:left;
-    width:185px;
+    border:3px solid black;
+    padding:5px;
+    width:169px;
     height:200px;
     background-color:red;
     margin-right:10px;
+    margin-bottom:10px;
 }
 #trzy{
     float:left;
-    width:185px;
+    border:3px solid black;
+    padding:5px;
+    width:169px;
     height:200px;
     background-color:red;
     margin-right:10px;
 }
 #cztery{
-    width:185px;
+    float:left;
+    border:3px solid black;
+    padding:5px;
+    width:169px;
     height:200px;
     background-color:red;
 }
 #jeden:hover{
     transition:2s;
-    width:185px;
+    width:169px;
     height:400px;
     background-color:red;
+    border-bottom:none;
 }
 #dol{
+    clear:left;
     border:3px solid black;
     width:764px;
     height:100px;
     background-color:green;
-    margin-top:10px;
 }
 #test{
     border:3px solid black;
