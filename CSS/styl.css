@@ -35,10 +35,6 @@ body{
 #jeden:hover{
     transition:2s;
     border-radius:10px;
-    width:169px;
-    height:400px;
-    background-color:red;
-    border-bottom:none;
 }
 #dwa{
     float:left;
