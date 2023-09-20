@@ -81,6 +81,7 @@ body{
     width:754px;
     height:200px;
     background-color:red;
+    border-bottom:10px;
 }
 #piec:hover{
     transition:2s;
