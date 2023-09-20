@@ -60,7 +60,8 @@ body{
 }
 #trzy:hover{
     transition:2s;
-    border-radius:10px;}
+    border-radius:10px;
+}
 #cztery{
     float:left;
     border:3px solid black;
@@ -71,9 +72,21 @@ body{
 }
 #cztery:hover{
     transition:2s;
-    border-radius:10px;}
-#dol{
+    border-radius:10px;
+}
+#piec{
     clear:left;
+    border:3px solid black;
+    padding:5px;
+    width:754px;
+    height:200px;
+    background-color:red;
+}
+#piec:hover{
+    transition:2s;
+    border-radius:10px;
+}
+#dol{
     border:3px solid black;
     padding:5px;
     width:754px;
