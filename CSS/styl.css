@@ -1,16 +1,19 @@
+*{
+    box-sizing:border-box;
+}
 body{
     background-color:gray;
     margin:0px;
+    padding:0px;
     color:white;
 }
 #container{
     margin:15px auto 15px auto;
-    width:800px;
+    width:50%;
 }
 #header{
     border:3px solid black;
     padding:5px;
-    width:754px;
     height:126px;
     background-color:green;
     margin-bottom:10px;
@@ -23,62 +26,58 @@ body{
     transition:2s;
     border-radius:15px;
 }
+#box{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+}
 #jeden{
-    float:left;
-    border:3px solid black;
+    font-size:2rem;
     padding:5px;
-    width:169px;
+    border:3px solid black;
     height:169px;
     background-color:red;
-    margin-right:10px;
-    margin-bottom:10px;
 }
 #jeden:hover{
     transition:2s;
     border-radius:10px;
 }
 #dwa{
-    float:left;
-    border:3px solid black;
+    font-size:2rem;
     padding:5px;
-    width:169px;
+    border:3px solid black;
     height:169px;
     background-color:red;
-    margin-right:10px;
 }
 #dwa:hover{
     transition:2s;
     border-radius:10px;
 }
 #trzy{
-    float:left;
-    border:3px solid black;
+    font-size:2rem;
     padding:5px;
-    width:169px;
+    border:3px solid black;
     height:169px;
     background-color:red;
-    margin-right:10px;
 }
 #trzy:hover{
     transition:2s;
     border-radius:10px;}
 #cztery{
-    float:left;
-    border:3px solid black;
+    font-size:2rem;
     padding:5px;
-    width:169px;
+    border:3px solid black;
     height:169px;
-    background-color:red;
+    background-color:pink;
 }
 #cztery:hover{
     transition:2s;
     border-radius:10px;
 }
 #piec{
-    float:left;
+    clear:left;
     border:3px solid black;
     padding:5px;
-    width:754px;
     height:169px;
     background-color:red;
     margin-bottom:10px;
@@ -88,10 +87,8 @@ body{
     border-radius:10px;
 }
 #dol{
-    clear:left;
     border:3px solid black;
     padding:5px;
-    width:754px;
     height:85px;
     background-color:green;
 }
