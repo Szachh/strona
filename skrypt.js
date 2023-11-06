@@ -1,6 +1,4 @@
-alert("Halo halo witam");
-
 function powitanie(){
-  var name=document.getElementById("name").
-  alert("Witaj "+name);
+  var name=document.getElementById("imie");
+  alert("Witaj " + name);
 }
