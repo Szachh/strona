@@ -13,14 +13,17 @@
             <h1>Halo Halo</h1>
         </div>
         <div id="test">
-           <a href="../index.html">Halo tutaj</a>
-           <button onclick="document.getElementById('image').src='foto.jpg'">Zmien zdjecie</button>
-           <img id="image" src="foto1.jpg">
-           <button onclick="document.getElementById('image').src='foto1.jpg'">Zmien zdjecie</button>
-        <form>
-            <input type="text" id="name"/>
-            <input type="submit" onclick="powitanie()"/>
-        </form>
+            <a href="../index.html">Halo tutaj</a>
+            <form>
+                <input type="text" id="name"/>
+                <input type="submit" onclick="powitanie()">
+            </form>
+            <button onclick="document.getElementById('image').src='foto.jpg'">Zmien zdjecie</button>
+            <img id="image" src="foto1.jpg">
+            <button onclick="document.getElementById('image').src='foto1.jpg'">Zmien zdjecie</button>
+            <h1>Zamiana 10 na 2</h1>
+            <input type="number" id="liczba" onchange="program()">
+            <p>Liczba w postaci binarnej<span></span>
         </div>
     </div>
 </body>
