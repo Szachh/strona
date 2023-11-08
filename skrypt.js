@@ -1,5 +1,5 @@
 function powitanie(){
-  var name=document.getElementById("name");
+  var name=document.getElementById("name").value;
   alert("Witaj " + name);
 }
 
