@@ -1,4 +1,4 @@
 function powitanie(){
-  var name=document.getElementById("imie");
+  var name=document.getElementById("name");
   alert("Witaj " + name);
 }
